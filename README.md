@@ -10,7 +10,7 @@ $ npm install eventsocket
 ## Usage
 
 ```js
-var JsonSocket = require('eventsocket');
+var EventSocket = require('eventsocket');
 ```
 
 ## Methods
@@ -30,7 +30,7 @@ Create new event socket from existing`net.Socket` or [`JsonSocket`](https://gith
 ```js
 var net = require('net');
 var server = net.createServer(function (con) {
-    var socket = new JsonSocket(con);
+    var socket = new EventSocket(con);
 }
 ```
 
@@ -73,7 +73,7 @@ DEBUG=EventSocket:connection node test.js
 # data log
 DEBUG=EventSocket:data node test.js
 
-# all json socket logs
+# all event socket logs
 DEBUG=EventSocket:* node test.js
 ```
 

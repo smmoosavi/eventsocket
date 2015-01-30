@@ -1,0 +1,33 @@
+{
+  "name": "eventsocket",
+  "version": "0.0.1",
+  "description": "Event socket",
+  "main": "index.js",
+  "scripts": {
+    "test": "make test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/smmoosavi/eventsocket.git"
+  },
+  "keywords": [
+    "event",
+    "json",
+    "socket",
+    "tcp"
+  ],
+  "author": "smmoosavi",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/smmoosavi/eventsocket/issues"
+  },
+  "homepage": "https://github.com/smmoosavi/eventsocket",
+  "dependencies": {
+    "debug": "^2.1.1",
+    "jsonsocket": "^1.0.0"
+  },
+  "devDependencies": {
+    "chai": "^1.10.0",
+    "mocha": "^2.1.0"
+  }
+}

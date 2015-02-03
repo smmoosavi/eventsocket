@@ -59,6 +59,18 @@ Emitted when disconnected.
 ### Custom
 Emitted event from peer 
 
+### error
+
+Emitted when net.Socket emit error.
+
+> Error events are treated as a special case in node. If there is no listener for it,
+> then the default action is to print a stack trace and exit the program.
+
+[see more](http://nodejs.org/api/events.html#events_class_events_eventemitter).
+
+### newListener, removeListener
+
+Inherited from [EventEmitter](http://nodejs.org/api/events.html#events_class_events_eventemitter).
 ## Logging
 
 You can enable logging. [See more](https://github.com/visionmedia/debug)

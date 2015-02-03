@@ -1,6 +1,6 @@
 {
   "name": "eventsocket",
-  "version": "1.0.2-alpha",
+  "version": "1.0.2",
   "description": "Event socket",
   "main": "index.js",
   "scripts": {

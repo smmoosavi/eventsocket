@@ -1,6 +1,6 @@
 {
   "name": "eventsocket",
-  "version": "1.0.2",
+  "version": "1.0.3-alpha",
   "description": "Event socket",
   "main": "index.js",
   "scripts": {
@@ -24,7 +24,7 @@
   "homepage": "https://github.com/smmoosavi/eventsocket",
   "dependencies": {
     "debug": "^2.1.1",
-    "jsonsocket": "^1.0.1"
+    "jsonsocket": "^1.0.2"
   },
   "devDependencies": {
     "chai": "^1.10.0",

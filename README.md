@@ -15,9 +15,11 @@ var EventSocket = require('eventsocket');
 
 ## Methods
 
-### `EventSocket(ip, port)`
+### `EventSocket(options)`
+### `EventSocket(port, [host])`
+### `EventSocket(path)`
 
-Create new event socket from ip and port.
+Create new event socket. Same as [`net.connect`](http://nodejs.org/api/net.html#net_net_connect_options_connectionlistener).
 
 ```js
 var socket = new EventSocket('127.0.0.1', 7000);
@@ -44,6 +46,12 @@ socket.emit('message',{foo: 'bar'});
 ### `disconnect()`
 
 Destroy connection
+
+
+### `connect(port, [host])`
+### `connect(path)`
+
+Same as [`net.Socket.connect`](http://nodejs.org/api/net.html#net_socket_connect_port_host_connectlistener)
 
 ### `on(eventType, listener)`
 

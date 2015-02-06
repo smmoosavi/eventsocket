@@ -22,7 +22,7 @@ var EventSocket = require('eventsocket');
 Create new event socket. Same as [`net.connect`](http://nodejs.org/api/net.html#net_net_connect_options_connectionlistener).
 
 ```js
-var socket = new EventSocket('127.0.0.1', 7000);
+var socket = new EventSocket(7000, '127.0.0.1');
 ```
 
 ### `EventSocket(socket)`
